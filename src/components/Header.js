@@ -11,6 +11,26 @@ import Gallery from './Gallery';
 
 export default function App() {
   return (
+    <>
+    <div className="sub-header">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-8 col-sm-8">
+              <div className="left-content">
+              </div>
+            </div>
+            <div className="col-lg-4 col-sm-4">
+              <div className="right-icons">
+                <ul>
+                  <li><a href="https://stshemuspark.co.ke/"><i className="fa fa-facebook" /></a></li>
+                  <li><a href="https://stshemuspark.co.ke/"><i className="fa fa-twitter" /></a></li>
+                  <li><a href="https://stshemuspark.co.ke/"><i className="fa fa-instagram" /></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     <Router>
       <header className="header-area header-sticky">
         <div className="container">
@@ -68,5 +88,6 @@ export default function App() {
       <Route path="/" element={<Home />} />
       </Routes>
     </Router>
+    </>
   );
 }
