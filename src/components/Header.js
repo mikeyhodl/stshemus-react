@@ -32,24 +32,24 @@ export default function App() {
                 {'{'}/* {/* ***** Menu Start ***** */} */{'}'}
                 <ul className="nav">
                   <li>
-                    <a href="./">Home</a>
+                    <a href="/">Home</a>
                   </li>
                   <li>
-                    <a href="./about">About Us</a>
+                    <a href="/about">About Us</a>
                   </li>
                   <li className="has-sub">
                     <a href="#">Our Services</a>
                     <ul className="sub-menu">
                       <li>
-                        <a href="./services">Services</a>
+                        <a href="/services">Services</a>
                       </li>
                       <li>
-                        <a href="./insurance">Insurance</a>
+                        <a href="/insurance">Insurance</a>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="./gallery">Gallery</a>
+                    <a href="/gallery">Gallery</a>
                   </li>
                   <li>
                     <a href="./contact">Contact Us</a>
