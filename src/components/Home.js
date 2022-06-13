@@ -29,41 +29,31 @@ export default function Home() {
             <div className="col-lg-12">
               <div className="owl-service-item owl-carousel">
                 <div className="item">
-                  <div className="icon">
-                    <img src="assets/images/service-icon-01.png" alt="" />
-                  </div>
+                  
                   <div className="down-content">
                     <h4>Consultation</h4>
                   </div>
                 </div>
                 <div className="item">
-                  <div className="icon">
-                    <img src="assets/images/service-icon-02.png" alt="" />
-                  </div>
+                  
                   <div className="down-content">
                     <h4>Fp services</h4>
                   </div>
                 </div>
                 <div className="item">
-                  <div className="icon">
-                    <img src="assets/images/service-icon-03.png" alt="" />
-                  </div>
+                  
                   <div className="down-content">
                     <h4>Minor theatre</h4>
                   </div>
                 </div>
                 <div className="item">
-                  <div className="icon">
-                    <img src="assets/images/service-icon-02.png" alt="" />
-                  </div>
+                  
                   <div className="down-content">
                     <h4>Maternal care</h4>
                   </div>
                 </div>
                 <div className="item">
-                  <div className="icon">
-                    <img src="assets/images/service-icon-03.png" alt="" />
-                  </div>
+                  
                   <div className="down-content">
                     <h4>Circumcision</h4>
                   </div>
