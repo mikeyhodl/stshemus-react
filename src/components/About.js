@@ -7,7 +7,6 @@ export default function App() {
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          {/* <!-- <h6>Here are our upcoming meetings</h6> --> */}
           <h2>About Us</h2>
         </div>
       </div>
@@ -123,12 +122,6 @@ export default function App() {
           </div>
         </div>
       </div>
-    {/* <div class="footer">
-      <p>Copyright © 2022 St. Shemus Park Medical Centre. 
-          <br />
-          Designed by: <a href="https://lancolatech.co.ke" target="_blank">Lancolatech Company Limited</a>
-        </p>
-    </div> */}
   </section>
   </>
   );
