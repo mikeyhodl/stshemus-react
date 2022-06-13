@@ -52,7 +52,7 @@ export default function App() {
                     <a href="/gallery">Gallery</a>
                   </li>
                   <li>
-                    <a href="./contact">Contact Us</a>
+                    <a href="/contact">Contact Us</a>
                   </li>
                 </ul>
                 <a className="menu-trigger">
@@ -65,18 +65,12 @@ export default function App() {
         </div>
       </header>
       <Routes>
-        <Route path="/AboutUs" element="{<AboutUs">
-          {'}'}&gt;
-        </Route>
-        <Route path="/Coffee" element="{<Coffee">
-          {'}'}&gt;
-        </Route>
-        <Route path="/ContactUs" element="{<ContactUs">
-          {'}'}&gt;
-        </Route>
-        <Route path="/" element="{<Home">
-          {'}'} /&gt;
-        </Route>
+      <Route path="/About" element={<About />}></Route>
+      <Route path="/Contact" element={<Contact />}></Route>
+      <Route path="/Insurance" element={<Insurance />}></Route>
+      <Route path="/Services" element={<Services />}></Route>
+      <Route path="/ContactUs" element={<ContactUs />}></Route>
+      <Route path="/" element={<Home />} />
       </Routes>
     </Router>
   );
