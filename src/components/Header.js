@@ -7,8 +7,8 @@ import About from './About';
 import Insurance from './Insurance';
 import Contact from './ContactUs';
 import Home from './Home';
-import Services from 'Services';
-import Gallery from 'Gallery';
+import Services from './Services';
+import Gallery from './Gallery';
 
 export default function App() {
   return (
@@ -18,8 +18,7 @@ export default function App() {
           <div className="row">
             <div className="col-12">
               <nav className="main-nav">
-                {'{'}/* {/* ***** Logo Start ***** */} */{'}'}
-                <a href="./">
+                <Link to="./">
                   {' '}
                   <img
                     className="logo"
@@ -27,38 +26,35 @@ export default function App() {
                     height={92}
                     width={92}
                   />
-                </a>
-                {'{'}/* {/* ***** Logo End ***** */} */{'}'}
-                {'{'}/* {/* ***** Menu Start ***** */} */{'}'}
+                </Link>
                 <ul className="nav">
                   <li>
-                    <a href="/">Home</a>
+                    <Link to="/">Home</Link>
                   </li>
                   <li>
-                    <a href="/about">About Us</a>
+                    <Link to="/about">About Us</Link>
                   </li>
                   <li className="has-sub">
-                    <a href="#">Our Services</a>
+                    <Link to="#">Our Services</Link>
                     <ul className="sub-menu">
                       <li>
-                        <a href="/services">Services</a>
+                        <Link to="/services">Services</Link>
                       </li>
                       <li>
-                        <a href="/insurance">Insurance</a>
+                        <Link to="/insurance">Insurance</Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <a href="/gallery">Gallery</a>
+                    <Link to="/gallery">Gallery</Link>
                   </li>
                   <li>
-                    <a href="/contact">Contact Us</a>
+                    <Link to="/contact">Contact Us</Link>
                   </li>
                 </ul>
                 <a className="menu-trigger">
                   <span>Menu</span>
                 </a>
-                {'{'}/* {/* ***** Menu End ***** */} */{'}'}
               </nav>
             </div>
           </div>
@@ -69,7 +65,7 @@ export default function App() {
       <Route path="/Contact" element={<Contact />}></Route>
       <Route path="/Insurance" element={<Insurance />}></Route>
       <Route path="/Services" element={<Services />}></Route>
-      <Route path="/ContactUs" element={<ContactUs />}></Route>
+      <Route path="/Gallery" element={<Gallery />}></Route>
       <Route path="/" element={<Home />} />
       </Routes>
     </Router>
