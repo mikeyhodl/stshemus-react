@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 export default function Home() {
   return (
@@ -13,9 +15,9 @@ export default function Home() {
               <div className="col-lg-12">
                 <div className="caption">
                   <h2>Welcome St. Shemus Park Medical Centre</h2>
-                  <p>St Shemus Park is an out-patient clinic in <a rel="nofollow" href="https://goo.gl/maps/bubuY2M4uFZqsknC9" target="_blank">Kitale</a>. providing quality accessible and affordable healthcare <a rel="nofollow" href="./services">services</a>.</p>
+                  <p>St Shemus Park is an out-patient clinic in <a rel="nofollow" href="https://goo.gl/maps/bubuY2M4uFZqsknC9" target="_blank">Kitale</a>. providing quality accessible and affordable healthcare <Link to="/services" rel="nofollow">services</Link>.</p>
                   <div className="main-button-red">
-                    <div><a href="./contact">Contact Us!</a></div>
+                    <div><Link to="/contact">Contact Us!</Link></div>
                   </div>
                 </div>
               </div>
@@ -179,7 +181,7 @@ export default function Home() {
                     <h3>Location</h3>
                     <p>Laini Moja Kitale Mother’s Pharmacy building.</p>
                     <div className="main-button-red">
-                      <div><a href="./contact">Contact Us Now!</a></div>
+                      <div><Link to="/contact">Contact Us Now!</Link></div>
                     </div>
                   </div>
                 </div>
@@ -188,7 +190,7 @@ export default function Home() {
                     <h3>Working Hours</h3>
                     <p>Working 24/7 with patient observation rooms</p>
                     <div className="main-button-yellow">
-                      <div><a href="./contact">Contact Us Now!</a></div>
+                      <div><Link to="/contact">Contact Us Now!</Link></div>
                     </div>
                   </div>
                 </div>
@@ -205,7 +207,7 @@ export default function Home() {
                   </div>
                   <div className="accordion-body">
                     <div className="content">
-                      <p>St Shemus Park is an out-patient clinic in <a rel="nofollow" href="https://goo.gl/maps/bubuY2M4uFZqsknC9" target="_blank">Kitale</a>. providing quality accessible and affordable healthcare <a rel="nofollow" href="./services">services</a>.</p>
+                      <p>St Shemus Park is an out-patient clinic in <a rel="nofollow" href="https://goo.gl/maps/bubuY2M4uFZqsknC9" target="_blank">Kitale</a>. providing quality accessible and affordable healthcare <Link to="/services" rel="nofollow">services</Link>.</p>
                     </div>
                   </div>
                 </article>
